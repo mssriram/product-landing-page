@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Title</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/2f4f41f7c8.js" crossorigin="anonymous"></script>
+<link rel="icon" href="./static/paper-plane-solid.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+
+            <img src="./static/dunder mifflin.png" alt="company logo" id="header-img">
+            <div id="menu">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#staff">Staff</a>
+                <a class="nav-link" href="#footer">Contact</a>
+            </div>
+        </nav>  
+        
+        <div class="mobile-menu">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#staff" class="mobile-link">Staff</a>
+            <a href="#footer" class="mobile-link">Contact</a>
+        </div>
+    </header>
+
+    
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post"    >
+        <label for="form-title" id="form-title-label"></label>
+        <h1>Paper delivered, from us to you</h1>
+
+        <label for="email" id="email-label"></label>
+        <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
+
+        <label for="register" id="register-label"></label>
+        <input type="submit" name="submit" id="submit" value="Register">
+
+    </form>
+
+    <h1 id="about">About Us</h1>
+    <p>Welcome to Dunder Mifflin paper company.<br><br> We are a paper company based out of Scranton, Pennsylvania and the 3rd largest paper supplier in the state.
+        We here at Dunder Mifflin are more than just a company. We are a family. We may be a small paper company but what those big paper companies can't offer you
+         that we can is unparalleled customer service. Any time of day, just pick up your phone and dial our number and our in-house cutomer care executive, Kelly 
+         Kapoor will always be available at your service. <br>&nbsp;&nbsp;&nbsp;So if you are in need of any kind of paper supplies, go on, give us a call. You might end up making a friend for life.
+        
+    </p>
+
+    <div class="video-container">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LrBi4rX3TKg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <h1 id="staff">Staff</h1>
+    <div class="staff-flex">
+        <div class="staff-profile" id="michael">
+            <img class="staff-image" alt="michael scott photo" src="./static/michael-box.png" id="michael">
+            <div class="staff-text">
+                <h3>Michael Scott</h3>
+                <div class="staff-position">Regional Manager</div>
+                <div class="staff-quote"><q>Would I rather be feared or loved?<br> Easy. Both. I want people to be afraid of how much they love me.</q></div>
+            </div>
+        </div>
+
+        <div class="staff-profile" id="jim">
+            <img class="staff-image" alt="jim halpert photo" src="./static/jim-box.png" id="michael">
+            <div class="staff-text">
+                <h3>Jim Halpert</h3>
+                <div class="staff-position">Co-Manager</div>
+                <div class="staff-quote"><q>Right now, this is just a job. If I advance any higher in this company, this would be my career. And, uh, if this were my career, I’d have to throw myself in front of a train.</q></div>
+            </div>
+        </div>
+
+        <div class="staff-profile" id="dwight">
+            <img class="staff-image" alt="dwight schrute photo" src="./static/dwight-box.jpg" id="michael">
+            <div class="staff-text">
+                <h3>Dwight Schrute</h3>
+                <div class="staff-position">Assistant to the Regional Manager</div>
+                <div class="staff-quote"><q>Before I do anything I ask myself, ‘Would an idiot do that?’ And if the answer is yes, I do not do that thing.</q></div>
+            </div>
+        </div>
+
+        <div class="staff-profile" id="pam">
+            <img class="staff-image" alt="pam beesly photo" src="./static/pam-box.jpg" id="michael">
+            <div class="staff-text">
+                <h3>Pam Beesly</h3>
+                <div class="staff-position">Receptionist</div>
+                <div class="staff-quote"><q>I hate the idea that someone out there hates me. I even hate thinking that al-Qaeda hates me. I think if they got to know me, they wouldn’t hate me.</q></div>
+            </div>
+        </div>
+
+        <div class="staff-profile" id="ryan">
+            <img class="staff-image" alt="ryan howard photo" src="./static/ryan-box.png" id="michael">
+            <div class="staff-text">
+                <h3>Ryan Howard</h3>
+                <div class="staff-position">Temporary Employee</div>
+                <div class="staff-quote"><q>People keep calling me a "wunderkind". I don't even know what that means. I mean, I know what it means. It means very successful for your age. So I guess it makes sense, but It's a weird word.</q></div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="social-media">
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <div class="footer-info">
+            <a href="#" class="footer-info-element">Privacy Policy</a>
+            <a href="#" class="footer-info-element">Accessibility</a>
+            <a href="#" class="footer-info-element">Terms of Service</a>
+        </div>
+
+        <hr>
+        <div class="copyright">&copy; Dunder Mifflin, Inc. All rights reserved.</div> 
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
